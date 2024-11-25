@@ -1,0 +1,285 @@
+header {
+  width: 100%;
+  height: 110px;
+  border-bottom: 1px solid #0c1023;
+  position: relative;
+  z-index: 999;
+  .headerTop {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    .headerTopLogo {
+      width: 15%;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .logoImage {
+        width: 195px;
+        height: 30px;
+        object-fit: contain;
+      }
+    }
+    .headerTopSearch {
+      width: 70%;
+      height: inherit;
+      display: flex;
+      align-items: center;
+      .searchBox {
+        width: 600px;
+        height: 44px;
+        background-color: #f0f0f1;
+        border-radius: 6px;
+        padding: 0 16px;
+        display: flex;
+        align-items: center;
+        svg {
+          width: 24px;
+          height: 24px;
+          fill: #a1a3a8;
+        }
+        input {
+          background-color: transparent;
+          border: none;
+          font-size: 12px;
+          padding-right: 10px;
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+    .headerTopBtns {
+      width: 15%;
+      height: inherit;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      .loginBtns {
+        width: fit-content;
+        padding: 6px 16px;
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        border: 1px solid #e0e0e2;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 500;
+        color: #0c1023;
+        svg {
+          width: 24px;
+          height: 24px;
+          color: #424750;
+        }
+        .vrLine {
+          display: inline-block;
+          width: 2px;
+          height: 13px;
+          background-color: #0c1023;
+        }
+      }
+      .vrLine {
+        width: 1px;
+        height: 24px;
+        display: inline-block;
+        background-color: #e0e0e2;
+      }
+      .basket {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg {
+          width: 24px;
+          height: 24px;
+          fill: #424750;
+        }
+      }
+    }
+  }
+  .headerBottom {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    .headerBottomRight {
+      width: 86%;
+      height: inherit;
+      display: flex;
+      align-items: center;
+      .navCategory {
+        width: fit-content;
+        height: 100%;
+        padding: 0 12px;
+        position: relative;
+        &:hover {
+          .megaMenu {
+            display: block;
+          }
+        }
+        span {
+          display: flex;
+          width: 100%;
+          height: 100%;
+          align-items: center;
+          font-size: 14px;
+          gap: 4px;
+          color: #3f4064;
+          font-weight: bold;
+          svg {
+            width: 20px;
+            height: 20px;
+          }
+        }
+        .megaMenu {
+          width: 70vw;
+          height: calc(90vh - 110px);
+          background-color: white;
+          position: absolute;
+          top: 100%;
+          display: none;
+          .megaMenuList {
+            width: 200px;
+            height: 100%;
+            overflow: auto;
+            direction: ltr;
+            background-color: #f3f3f3;
+            .megaMenuListItem {
+              width: 100%;
+              height: 70px;
+              direction: rtl;
+              padding-right: 16px;
+
+              &:hover {
+                background-color: white;
+                span {
+                  color: #ef4444;
+                }
+                svg {
+                  fill: #ef4444;
+                }
+                .megaMenuListItemContent {
+                  display: block;
+                }
+              }
+              .megaMenuListItemContent {
+                width: calc(100% - 200px);
+                height: 100%;
+                position: absolute;
+                display: none;
+                left: 0;
+                top: 0;
+               
+              }
+              span {
+                font-size: 12px;
+                color: #3f4064;
+                font-weight: 400;
+                svg {
+                  width: 18px;
+                  height: 18px;
+                  fill: #3f4064;
+                }
+              }
+            }
+          }
+        }
+      }
+      .vrLine {
+        display: inline-block;
+        height: 16px;
+        width: 1px;
+        background-color: #a1a3a8;
+      }
+      .navItem {
+        width: fit-content;
+        height: 100%;
+        padding: 0 12px;
+        position: relative;
+        overflow: hidden;
+        &:hover {
+          &::before {
+            left: 0;
+          }
+        }
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 4px;
+          width: 100%;
+          height: 100%;
+          line-height: 40px;
+          text-decoration: none;
+          color: #a1a3a8;
+          font-size: 12px;
+          svg {
+            width: 18px;
+            height: 18px;
+            fill: #a1a3a8;
+          }
+        }
+        &::before {
+          content: "";
+          display: inline-block;
+          width: 100%;
+          height: 1px;
+          background-color: #ef4444;
+          position: absolute;
+          bottom: 0;
+          left: -100%;
+          transition: 200ms;
+        }
+      }
+    }
+    .headerBottomLeft {
+      width: 14%;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .city {
+        padding: 8px 12px;
+        border-radius: 20px;
+        background-color: #fef6ef;
+        position: relative;
+
+        &:hover {
+          .locationDrp {
+            display: block;
+          }
+        }
+        span {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          font-size: 12px;
+          color: #f57f17;
+          svg {
+            width: 20px;
+            height: 20px;
+            fill: #f57f17;
+          }
+        }
+        .locationDrp {
+          width: 350px;
+          background-color: #3f4064;
+          border: 2px solid #23254e;
+          line-height: 22px;
+          color: white;
+          padding: 12px;
+          border-radius: 6px;
+          position: absolute;
+          top: calc(100% + 10px);
+          left: 0;
+          display: none;
+          font-size: 12px;
+          text-wrap: wrap;
+          z-index: 9999;
+        }
+      }
+    }
+  }
+}
