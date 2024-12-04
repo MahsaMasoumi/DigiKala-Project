@@ -1,0 +1,46 @@
+.popularBrandsContainer {
+  width: 100%;
+  height: 220px;
+  margin-top: 16px;
+
+  .popularBrandsCenter {
+    width: 85%;
+    height: 100%;
+    border: 1px solid #35353533;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding-bottom: 24px;
+
+    .popularBrandsTitel {
+      width: 100%;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+
+      svg {
+        width: 24px;
+        height: 24px;
+        fill: #f9a825;
+      }
+      P {
+        font-size: 21px;
+        color: black;
+      }
+    }
+    .swiper-slide {
+      width: 100%;
+      height: calc(100% - 80px);
+      border-radius: 0 16px 16px 0;
+      display: flex;
+      align-items: center;
+      border-left: 1px solid #35353533;
+      img {
+        width: 110px;
+        height: 110px;
+        object-fit: contain;
+      }
+    }
+  }
+}

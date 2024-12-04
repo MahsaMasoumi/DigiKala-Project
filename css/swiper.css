@@ -30,3 +30,6 @@
             font-weight: bold;
         }
     }
+    .swiper-button-disabled{
+      opacity: 0 !important;
+    }

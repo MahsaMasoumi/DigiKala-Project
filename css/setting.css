@@ -1,16 +1,23 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: IranYekan;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: IranYekan , BHoma;
 }
-body{
-    height: 3000px;
+body {
+  height: 3000px;
 }
-@font-face{
-    font-family: IranYekan;
-    src: url(../fonts/IRANYekanWeb-Medium.eot);
-    src: url(../fonts/IRANYekanWeb-Medium.ttf);
-    src: url(../fonts/IRANYekanWeb-Medium.woff);
-    src: url(../fonts/IRANYekanWeb-Medium.woff2);
+@font-face {
+  font-family: IranYekan;
+  src: url(../fonts/IRANYekan/IRANYekanWeb-Medium.eot);
+  src: url(../fonts/IRANYekan/IRANYekanWeb-Medium.ttf);
+  src: url(../fonts/IRANYekan/IRANYekanWeb-Medium.woff);
+  src: url(../fonts/IRANYekan/IRANYekanWeb-Medium.woff2);
+}
+@font-face {
+  font-family: BHoma;
+  src: url(../fonts/BHoma/BHoma.eot);
+  src: url(../fonts/BHoma/BHoma.ttf);
+  src: url(../fonts/BHoma/BHoma.woff);
+  src: url(../fonts/BHoma/BHoma.woff2);
 }

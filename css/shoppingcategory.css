@@ -1,0 +1,43 @@
+.shoppingCategoryContainer {
+  width: 100%;
+  height: 450px;
+  margin-top: 16px;
+  .shoppingCategoryCenter {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    .shoppingCategoryTitel {
+      width: 100%;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .h3 {
+        font-size: 21px;
+        font-weight: 100;
+      }
+    }
+    .shoppingCategoryItem {
+      width: 130px;
+      height: 150px;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}

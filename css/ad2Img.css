@@ -1,0 +1,26 @@
+.ad2Container {
+  width: 100%;
+  height: 240px;
+  margin-top: 16px;
+  display: flex;
+  
+  .ad2Center {
+      width: 85%;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      gap: 4px;
+    .ad2Img {
+      width: 100%;
+      height: 100%;
+      img {
+          object-fit: contain;
+          width: 100%;
+          height: 100%;
+          border-radius: 20px;
+          
+      }
+    }
+  }
+}
