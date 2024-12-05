@@ -1,0 +1,16 @@
+.ad4imgContainer{
+width: 100%;
+height: 170px;
+margin-top: 16px;
+    .ad4imgCenter{
+        width: 85%;
+        height: 100%;
+        margin: 0 auto;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 20px;
+        }
+    }
+}
