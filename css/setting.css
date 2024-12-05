@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: IranYekan , BHoma;
+  font-family: IranYekan, Homa;
 }
 body {
   height: 7000px;
@@ -15,7 +15,7 @@ body {
   src: url(../fonts/IRANYekan/IRANYekanWeb-Medium.woff2);
 }
 @font-face {
-  font-family: BHoma;
+  font-family: Homa;
   src: url(../fonts/BHoma/BHoma.eot);
   src: url(../fonts/BHoma/BHoma.ttf);
   src: url(../fonts/BHoma/BHoma.woff);
