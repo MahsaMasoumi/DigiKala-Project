@@ -1,18 +1,19 @@
 .footerContainer {
   width: 100%;
-  height: 600px;
+  height: 1000px;
   margin-top: 48px;
   padding-top: 32px;
-  border-bottom: 1px solid #35353533;
   border-top: 1px solid #35353533;
+  overflow: hidden;
   .footerTop {
     width: 100%;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    
     .digiKalaLogoFooterImg {
-      width: 90%;
+      width: 85%;
       height: 100%;
       padding-right: 20px;
       img {
@@ -34,6 +35,11 @@
         font-size: 12px;
         color: #a1a3a8;
       }
+      svg {
+        width: 24px;
+        height: 24px;
+        fill: #a1a3a8;
+      }
     }
   }
   .phoneFooter {
@@ -54,6 +60,164 @@
       height: 13px;
       background-color: #a1a3a8;
     }
+  }
+  .imgFooterItem {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
     
+    .imgFooter {
+      text-align: center;
+      img {
+        width: 56px;
+        height: 56px;
+      }
+      p {
+        font-size: 11px;
+        color: #3f4064;
+        font-weight: 200;
+      }
+    }
+  }
+  .information {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 0 50px;
+    overflow-x: hidden;
+    padding-left: 20px;
+    
+
+    .informationItem {
+      width: 100%;
+      height: 100%;
+      line-height: 40px;
+
+      .titel {
+        font-size: 16px;
+        color: #3f4064;
+        font-weight: 600;
+        word-spacing: 1.5px;
+      }
+      .normal {
+        font-size: 14px;
+        color: #81858b;
+        font-weight: 100;
+      }
+      .footerSvg{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        gap: 30px;
+        margin: 20px 0;
+       
+        svg{
+          width: 40px;
+          height: 40px;
+          fill: #81858b;
+        }
+      }
+      .emailSubmit{
+        width: 100%;
+        display: flex;
+        margin-top: 15px;
+        
+        input{
+          background-color: #F0F0F1;
+          text-align: right;
+          padding:2px  12px;
+          color: #81858bff;
+          border: none;
+          width: 250px;
+          height: 50px;
+          border-radius: 8px;
+          outline: none;
+        }
+        .submitBtn{
+          color: white;
+          width: 60px;
+          background-color: #E0E0E2;
+          margin-right: 10px;
+          border-radius: 8px;
+          text-align: center;
+          padding: 4px 0;
+        }
+
+
+      }
+    }
+  }
+  .digiKalaAppContainer{
+    width: 100%;
+    height: 135px;
+    margin: 16px;
+    border-bottom: 1px solid #35353533;
+    
+    .digiKalaAppCenter{
+      width: 95%;
+      height: 75px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #3C4B6D;
+      border-radius: 8px;
+      .digiKalaAppRight{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding: 8px 20px;
+        text-align: center;
+        gap: 16px;
+        img{
+          width: 44px;
+          height: 44px;
+        }
+        h3{
+          color: white;
+          font-weight: 200;
+        }
+        
+      }
+      .digiKalaAppLeft{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 20px;
+        border-radius: 30px;
+        img{
+          width: 142px;
+          height: 44px;
+        }
+        .more{
+          background-color: white;
+          width: 44px;
+          height: 44px;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+  .footerBottom{
+    width: 100%;
+    height: 520px;
+    background-color: yellow;
+    .digiKalaExplain{
+
+    }
+    .digiKalaExplainRight{
+
+    }
+    .digiKalaExplainLeft{
+
+    }
   }
 }
