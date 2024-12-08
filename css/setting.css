@@ -3,17 +3,16 @@
   padding: 0;
   box-sizing: border-box;
   font-family: IranYekan, Homa;
-  
 }
 body {
   height: 7000px;
 }
 @font-face {
   font-family: IranYekan;
-  src: url(../fonts/IRANYekan/IRANYekanWeb-Medium.eot);
-  src: url(../fonts/IRANYekan/IRANYekanWeb-Medium.ttf);
-  src: url(../fonts/IRANYekan/IRANYekanWeb-Medium.woff);
-  src: url(../fonts/IRANYekan/IRANYekanWeb-Medium.woff2);
+  src: url(../fonts/IRANYekan/IRANYekanWeb.eot);
+  src: url(../fonts/IRANYekan/IRANYekanWeb.ttf);
+  src: url(../fonts/IRANYekan/IRANYekanWeb.woff);
+  src: url(../fonts/IRANYekan/IRANYekanWeb.woff2);
 }
 @font-face {
   font-family: Homa;
