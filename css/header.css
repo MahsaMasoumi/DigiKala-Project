@@ -1,7 +1,7 @@
 header {
   width: 100%;
   height: 110px;
-  box-shadow:0 1px 2px #a1a3a888;
+  box-shadow: 0 1px 2px #a1a3a888;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -135,6 +135,7 @@ header {
             height: 20px;
           }
         }
+
         .megaMenu {
           width: 71vw;
           height: calc(90vh - 110px);
@@ -163,16 +164,69 @@ header {
                   fill: #ef4444;
                 }
                 .megaMenuListItemContent {
-                  display: block;
+                  display: flex;
                 }
               }
               .megaMenuListItemContent {
                 width: calc(100% - 200px);
                 height: 100%;
                 position: absolute;
-                display: none;
+                display: flex;
+                flex-flow: row wrap;
                 left: 0;
                 top: 0;
+                display: none;
+                justify-content: space-between;
+                overflow: auto;
+                direction: rtl;
+                .megaMenuListItemContentTitel {
+                  width: 100%;
+                  height: 30px;
+                  font-size: 12px;
+                  color: #008eb2;
+                  margin: 0 0 20px;
+                  padding: 24px 16px 20px 0;
+
+                  p {
+                    width: 100%;
+                    height: 100%;
+                    font-size: 12px;
+                    color: #008eb2;
+                  }
+                }
+
+                .megaMenuListItemContentCol {
+                  width: 23%;
+                  height: 100%;
+                  display: flex;
+                  flex-flow: column nowrap;
+                  gap: 16px;
+                  padding: 8px 16px 16px 16px;
+                  direction: rtl;
+                  .megaMenuListItemContentColTitel {
+                    width: 100%;
+                    height: 30px;
+
+                    p {
+                      font-size: 14px;
+                      color: #0c0c0c;
+                      text-wrap: nowrap;
+                      &:hover {
+                        color: #ef4444;
+                      }
+                    }
+                  }
+                  a {
+                    text-decoration: none;
+                    color: #81858b;
+                    line-height: 30px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    &:hover {
+                      color: #ef4444;
+                    }
+                  }
+                }
               }
               span {
                 font-size: 12px;

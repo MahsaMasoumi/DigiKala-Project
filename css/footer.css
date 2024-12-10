@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     .digiKalaLogoFooterImg {
       width: 85%;
       height: 100%;
@@ -67,7 +67,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 24px;
-    
+
     .imgFooter {
       text-align: center;
       img {
@@ -90,7 +90,6 @@
     margin: 0 50px;
     overflow-x: hidden;
     padding-left: 20px;
-    
 
     .informationItem {
       width: 100%;
@@ -108,28 +107,28 @@
         color: #81858b;
         font-weight: 100;
       }
-      .footerSvg{
+      .footerSvg {
         width: 100%;
         display: flex;
         justify-content: start;
         gap: 30px;
         margin: 20px 0;
-       
-        svg{
+
+        svg {
           width: 40px;
           height: 40px;
           fill: #81858b;
         }
       }
-      .emailSubmit{
+      .emailSubmit {
         width: 100%;
         display: flex;
         margin-top: 15px;
-        
-        input{
-          background-color: #F0F0F1;
+
+        input {
+          background-color: #f0f0f1;
           text-align: right;
-          padding:2px  12px;
+          padding: 2px 12px;
           color: #81858bff;
           border: none;
           width: 250px;
@@ -137,36 +136,34 @@
           border-radius: 8px;
           outline: none;
         }
-        .submitBtn{
+        .submitBtn {
           color: white;
           width: 60px;
-          background-color: #E0E0E2;
+          background-color: #e0e0e2;
           margin-right: 10px;
           border-radius: 8px;
           text-align: center;
           padding: 4px 0;
         }
-
-
       }
     }
   }
-  .digiKalaAppContainer{
+  .digiKalaAppContainer {
     width: 100%;
-    height: 135px;
+    height: 100px;
     margin: 16px;
     border-bottom: 1px solid #35353533;
-    
-    .digiKalaAppCenter{
+
+    .digiKalaAppCenter {
       width: 95%;
       height: 75px;
       margin: 0 auto;
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #3C4B6D;
+      background-color: #3c4b6d;
       border-radius: 8px;
-      .digiKalaAppRight{
+      .digiKalaAppRight {
         width: 60%;
         height: 100%;
         display: flex;
@@ -175,17 +172,16 @@
         padding: 8px 20px;
         text-align: center;
         gap: 16px;
-        img{
+        img {
           width: 44px;
           height: 44px;
         }
-        h3{
+        h3 {
           color: white;
           font-weight: 200;
         }
-        
       }
-      .digiKalaAppLeft{
+      .digiKalaAppLeft {
         width: 40%;
         height: 100%;
         display: flex;
@@ -193,11 +189,11 @@
         align-items: center;
         gap: 20px;
         border-radius: 30px;
-        img{
+        img {
           width: 142px;
           height: 44px;
         }
-        .more{
+        .more {
           background-color: white;
           width: 44px;
           height: 44px;
@@ -206,18 +202,156 @@
       }
     }
   }
-  .footerBottom{
+  .footerDescriptionContainer {
     width: 100%;
-    height: 520px;
-    background-color: yellow;
-    .digiKalaExplain{
+    height: 100px;
+    margin-top: 16px;
 
+    .footerDescriptionCenter {
+      width: 100%;
+      height: 100%;
+      display: flex;
+
+      .footerDescriptionRight {
+        width: 70%;
+        height: 100%;
+        padding-right: 25px;
+        .footerDescriptiontitle {
+          padding: 32px 0;
+
+          h3 {
+            font-size: 21px;
+            font-weight: 700;
+          }
+        }
+        .footerDescription {
+          width: 100%;
+          height: 100px;
+          position: relative;
+
+          p {
+            font-size: 12px;
+            font-weight: 400;
+            color: #a1a3a8;
+          }
+
+          .grad {
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(transparent, white 99%);
+            position: absolute;
+            top: 0;
+          }
+        }
+
+        .footerDescriptionMore {
+          padding: 10px 0;
+
+          p {
+            font-size: 12px;
+            font-weight: 700;
+            color: rgb(25, 191, 211);
+            display: flex;
+            align-items: center;
+            svg {
+              width: 18px;
+              height: 18px;
+              fill: rgb(25, 191, 211);
+            }
+          }
+        }
+      }
+
+      .footerDescriptionLeft {
+        width: calc(100% - 70%);
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        padding: 32px 20px;
+
+        .footerDescriptionLeftImg {
+          width: 110px;
+          height: 110px;
+          border: 1px solid #a1a3a8;
+          border-radius: 8px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            width: 75px;
+            height: 75px;
+            object-fit: contain;
+          }
+        }
+      }
     }
-    .digiKalaExplainRight{
+  }
+}
+.footerBottomContainer {
+  width: 100%;
+  height: fit-content;
+  border-top: 1px solid #35353533;
+  p {
+    padding: 32px 0;
+    font-size: 11px;
+    color: #81858b;
+    text-align: center;
+  }
+  .footerBottom2 {
+    width: 100%;
+    height: 160px;
 
+    .footerBottom2Top {
+      width: 100%;
+      height: 50%;
+      border-bottom: 1px solid #35353533;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      background-color: #e0e0e2;
+      .footerBottom2TopImg {
+        width: 191px;
+        height: 80px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid #35353533;
+        img {
+          width: 107px;
+          height: 20px;
+          object-fit: contain;
+        }
+      }
     }
-    .digiKalaExplainLeft{
+    .footerBottom2Bottom {
+      width: 100%;
+      height: 50%;
+      border-bottom: 1px solid #35353533;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      background-color: #e0e0e2;
 
+      
+      .footerBottom2BottomImg {
+        width: 254px;
+        height: 80px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid #35353533;
+        img {
+          width: 153px;
+          height: 20px;
+          object-fit: contain;
+        }
+      }
     }
   }
 }

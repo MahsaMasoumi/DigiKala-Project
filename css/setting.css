@@ -4,9 +4,6 @@
   box-sizing: border-box;
   font-family: IranYekan, Homa;
 }
-body {
-  height: 7000px;
-}
 @font-face {
   font-family: IranYekan;
   src: url(../fonts/IRANYekan/IRANYekanWeb.eot);
