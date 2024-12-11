@@ -1,17 +1,16 @@
-.ad2Container {
+.ad5Container {
   width: 100%;
   height: 240px;
   margin-top: 16px;
   display: flex;
-
-  .ad2Center {
+  .ad5Center {
     width: 85%;
     height: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 4px;
-    .ad2Img {
+    .ad5Img {
       width: 100%;
       height: 100%;
       img {

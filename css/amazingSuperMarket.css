@@ -48,15 +48,31 @@
       justify-content: center;
 
       .amazingSMLeftImg {
-        width: 80px;
-        height: inherit;
+        width: 74px;
+        height: 74px;
         display: flex;
         align-items: center;
+        position: relative;
         img {
           width: 70px;
           height: 70px;
           border-radius: 50%;
           object-fit: contain;
+          right: 0;
+        }
+        span {
+          width: 34px;
+          height: 20px;
+          background-color: #ef4056;
+          color: white;
+          border-radius: 16px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          font-size: 13px;
         }
       }
       .amazingSMLeftText {

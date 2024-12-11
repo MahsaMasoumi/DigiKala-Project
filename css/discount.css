@@ -8,7 +8,7 @@
     width: 85%;
     height: 100%;
     margin: 0 auto;
-    
+
     border: 1px solid #35353533;
     border-radius: 8px;
     .discountTitel {
@@ -17,7 +17,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      
+
       svg {
         width: 24px;
         height: 24px;
@@ -38,7 +38,6 @@
       flex-flow: row wrap;
       justify-content: space-between;
       padding: 44px;
-      
 
       .discountItem {
         width: 200px;
@@ -75,8 +74,6 @@
           border-bottom: unset;
         }
 
-        
-
         .discountItemImg {
           width: 100%;
           height: 70%;
@@ -105,22 +102,22 @@
             font-size: 12px;
           }
           .currentPrice {
-              color: #3f4064;
-              font-size: 16px;
-            }
-            svg{
-              width: 16px;
-              height: 16px;
-            }
+            color: #3f4064;
+            font-size: 16px;
+          }
+          svg {
+            width: 16px;
+            height: 16px;
+          }
         }
-        .prevPrice{
-            width: 100%;
-            height: 15%;
-            text-align: end;
-            padding: 0 0 15px 20px;
-            font-size: 14px;
-            color: #c0c2c5;
-            text-decoration: line-through;
+        .prevPrice {
+          width: 100%;
+          height: 15%;
+          text-align: end;
+          padding: 0 0 15px 20px;
+          font-size: 14px;
+          color: #c0c2c5;
+          text-decoration: line-through;
         }
       }
     }
