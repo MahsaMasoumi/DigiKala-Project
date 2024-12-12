@@ -63,16 +63,16 @@
         span {
           width: 34px;
           height: 20px;
-          background-color: #ef4056;
-          color: white;
           border-radius: 16px;
+          font-size: 13px;
           display: flex;
           align-items: center;
           justify-content: center;
+          background-color: #ef4056;
+          color: white;
           position: absolute;
           bottom: 0;
           right: 0;
-          font-size: 13px;
         }
       }
       .amazingSMLeftText {
