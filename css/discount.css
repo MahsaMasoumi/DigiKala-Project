@@ -42,7 +42,7 @@
       .discountItem {
         width: 200px;
         height: 230px;
-        padding: 12px 8px;
+        padding: 12px 0 12px 8px;
         border-bottom: 1px solid #35353533;
         border-left: 1px solid #35353533;
         margin: 0;
